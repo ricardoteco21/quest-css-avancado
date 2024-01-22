@@ -1,0 +1,51 @@
+@media (max-width: 940px) {
+    html {
+        
+        background: url(../images/bg-mobile.svg) var(--medium-primary) no-repeat;
+        background-size: contain;
+    }
+
+    .cabecalho img{
+        width: 110px;
+    }
+
+    .container .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .info img{
+        width: 450px;
+    }
+
+    .container .texto .titulo {
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .container .texto .descricao {
+        font-size: 15px;
+    }
+
+    .container .botao-registrar {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .social ul {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    footer .social li a i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
